@@ -72,7 +72,7 @@ void testProcessValue() {
 void process(int x) {
     if (x > 0) {
         std::cout << "Bilangan Positif\n";
-        if (x % 2) {
+        if (x % 2 == 0) {
             std::cout << "Bilangan Genap\n";
         }
         else {
@@ -359,7 +359,7 @@ void testIsPrime() {
 /// </remarks>
 int main()
 {
-    std::cout << "1. Teori Himpunan";
+    std::cout << "1. Teori Himpunan\n";
 
     std::vector<std::vector<bool>> featureCombinations = {
         {true, true, false},
